@@ -1,54 +1,85 @@
-# Astro Starter Kit: Basics
+<a name="readme-top"></a>
 
-```sh
-npm create astro@latest -- --template basics
-```
+<div align="center">
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+[![Discord](https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.com/invite/WPHTNgFPkx)
+[![Twitter](https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/javascript_vzla)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/javascript_vzla/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://linkedin.com/company/js-venezuela/)
+[![Twitch](https://img.shields.io/badge/Twitch-9146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://twitch.tv/javascript_vzla)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<a href="https://github.com/JS-Venezuela/js-venezuela-web">
+  <img src="./public/Banner.png" alt="Logo" width="800" />
+</a>
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Web oficial JavaScript Venezuela
 
-## 🚀 Project Structure
+Somos una comunidad inclusiva, compuesta por personas con una amplia gama de intereses en tecnología. Desde el desarrollo de software hasta el diseño, pasando por la creación de contenido y más allá, todos son bienvenidos. Valoramos la diversidad de conocimientos y la riqueza que esta aporta a nuestro grupo.\
+[Reportar error](https://github.com/JS-Venezuela/js-venezuela-web/issues) · [Sugerir algo](https://github.com/JS-Venezuela/js-venezuela-web/issues)
 
-Inside of your Astro project, you'll see the following folders and files:
+</div>
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Para empezar
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Prerequisitos
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- PNPM (lo recomendamos por su eficiencia y rapidez)
 
-Any static assets, like images, can be placed in the `public/` directory.
+  ```sh
+  npm install -g pnpm
+  ```
 
-## 🧞 Commands
+- o NPM
 
-All commands are run from the root of the project, from a terminal:
+  ```sh
+  npm install npm@latest -g
+  ```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Instalación
 
-## 👀 Want to learn more?
+1. Clona el repositorio
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+   ```sh
+   git clone https://github.com/JS-Venezuela/js-venezuela-web
+   ```
+
+2. Instala los paquetes de NPM
+
+   ```sh
+   pnpm install
+   ```
+
+3. Ejecuta el proyecto
+
+   ```sh
+   pnpm run dev
+   ```
+
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
+
+## Contribuir al proyecto
+
+Las contribuciones son lo que hacen que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. ¡Cualquier contribución que hagas es **muy apreciada**!
+
+Si tienes alguna sugerencia que podría mejorar el proyecto, por favor, haz un [_fork_](https://github.com/JS-Venezuela/js-venezuela-web/fork) del repositorio y crea una [_pull request_](https://github.com/JS-Venezuela/js-venezuela-web/pulls). También puedes simplemente abrir un [_issue_](https://github.com/JS-Venezuela/js-venezuela-web/issues) con la etiqueta "enhancement".
+
+Aquí tienes una guía rápida:
+
+1. Haz un [_fork_](https://github.com/JS-Venezuela/js-venezuela-web/fork) del Proyecto
+2. Clona tu [_fork_](https://github.com/JS-Venezuela/js-venezuela-web/fork) (`git clone <URL del fork>`)
+3. Entra al directorio de tu [_fork_](https://github.com/JS-Venezuela/js-venezuela-web/fork) (`cd <NOMBRE del fork>`)
+4. Añade el repositorio original como remoto (`git remote add upstream <URL del repositorio original>`)
+5. Crea tu Rama de Funcionalidad (`git checkout -b feature/CaracteristicaIncreible`)
+6. Realiza tus Cambios (`git commit -m 'Add: alguna CaracterísticaIncreible'`)
+7. Haz Push a la Rama (`git push origin feature/CaracteristicaIncreible`)
+8. Abre una [_pull request_](https://github.com/JS-Venezuela/js-venezuela-web/pulls)
+
+
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
+
+## 🛠️ Stack
+
+- [Astro](https://astro.build/) - El framework para sitios web basados ​​en contenido.
+- [Tailwind](https://tailwindcss.com/) - Un framework CSS de utilidad para crear rápidamente diseños personalizados.
+
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
